@@ -1,10 +1,9 @@
 # PageCalc
-PageCalc allows you to calculate how many pages of a book you should read every day to finish it before a certain deadline.
+PageCalc allows you to calculate the amount of pages of a book you should read every day to finish it before a certain deadline.
 
 ## Installation 
 
 ### From source
-1. Clone my git repository.
 ``` 
 $ git clone https://gitlab.com/mateocoltura/pagecalc.git
 ```
@@ -15,7 +14,7 @@ Coming soon.
 ## Updating
 1. Change directory to where you cloned PageCalc.
 
-2. Use ```git pull``` to update PageCalc```
+2. Use ```git pull``` to update PageCalc
 ```
 $ git pull 
 ```
