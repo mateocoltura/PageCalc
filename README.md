@@ -5,11 +5,8 @@ PageCalc allows you to calculate the amount of pages of a book you should read e
 
 ### From source
 ``` 
-$ git clone https://gitlab.com/mateocoltura/pagecalc.git
+$ git clone https://github.com/mateocoltura/pagecalc.git
 ```
-
-### AUR package
-Coming soon.
 
 ## Updating
 1. Change directory to where you cloned PageCalc.
