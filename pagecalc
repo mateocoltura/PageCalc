@@ -1,5 +1,7 @@
 #!/bin/python 
 
+import math
+
 print('Welcome to PageCalc')
 
 while True:
@@ -16,7 +18,7 @@ while True:
     break
             
 while True:
-    numberOfDays = (input('\nHow many days until your deadline?\n > '))
+    numberOfDays = input('\nHow many days until your deadline?\n > ')
     if numberOfDays.isdigit() == False:
         print('Please enter a number')
         continue
@@ -37,8 +39,11 @@ while True:
     if readPages < 0:
         print('Please enter a number above or equal to 0')
         continue
+
+    if readPages > numberOfPages:
+        print('The amount of pages you have read can not be more than the amount of pages your book has')
+        continue
     break
-
-
-pagesToReadDaily = round((numberOfPages - readPages) / numberOfDays)
+    
+(pagesToReadDaily) = math.ceil((numberOfPages - readPages) / numberOfDays)
 print('\nYou have to read ' + (str(pagesToReadDaily)) + ' pages every day to finish your book on time ')   
