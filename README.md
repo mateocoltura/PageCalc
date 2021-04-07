@@ -9,11 +9,9 @@ $ git clone https://github.com/mateocoltura/pagecalc.git
 ```
 
 ## Updating
-1. Change directory to where you cloned PageCalc.
+1. Change directory to where you cloned PageCalc
 
 2. Use ```git pull``` to update PageCalc
-```
-$ git pull 
 ```
 
 ## License 
