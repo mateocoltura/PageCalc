@@ -12,7 +12,6 @@ $ git clone https://github.com/mateocoltura/pagecalc.git
 1. Change directory to where you cloned PageCalc
 
 2. Use ```git pull``` to update PageCalc
-```
 
 ## License 
 ![GPLv3](https://www.gnu.org/graphics/gplv3-127x51.png) 
